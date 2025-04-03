@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA CalCulator</title>
+    <link rel="stylesheet" href="CgpaCalculator.css">
+</head>
+<body>
+    <div class="Main_Div">
+        <div class="Heading">
+            <P>
+                CGPA CalCulator
+            </P>
+        </div>
+        <div class="TextBox">
+            <div>
+                <p>
+                    Subject
+                </p>
+                <input type="text" id="SubjectName">
+             </div>
+             <div>
+                <p>
+                    Grade
+                </p>
+                <select name="Grade" id="Grade" class="Grade">
+                    <option value="A">A</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="B-">B-</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="C-">C-</option>
+                    <option value="D+">D+</option>
+                    <option value="D">D</option>
+                    <option value="D-">D-</option>
+                    <option value="F">F</option>
+
+                </select>
+             
+           </div>
+           <div>
+            <p>
+                Credit Hour
+            </p>
+              <input type="text" id="CreditHour">
+           </div>
+           <div class="Button">
+            <input type="submit" value="ADD" id="Add">
+          </div>
+        </div>
+        <table id="subjectTable">
+            <thead>
+                <tr class="Coloumns" id="Coloumns">
+                    <th>Subject</th>
+                    <th>Grade</th>
+                    <th>Credit</th>
+                </tr>
+            </thead>
+            <tbody id="subjectList"></tbody>
+        </table>
+        <h3 class="Span">
+            CGPA :<span id="Span" > 0.00</span>
+        </h3>
+        <div class="Calculate">
+            <input type="submit" value="Calculate" id="Calculate_Cgpa">
+            <input type="submit" value="Reset Form" id="Reset">
+        </div>
+    </div>
+    <script src="CgpaCalculator.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,94 @@
+.Main_Div
+{
+
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    background-color: Teal;
+    height: 650px;
+    width: 600px;
+    border-radius: 5px;
+
+}
+.Heading p
+{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.TextBox
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="text"]
+{
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+.Grade
+{
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+.TextBox p
+{
+    display: flex;
+    justify-content: center;
+    font-family: 25px;
+    color: white;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th,td
+{
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
+    background-color: #f2f2f2;
+}
+.Button
+{
+    margin-top: 5px;
+}
+input[type="submit"]
+{
+    height: 30px;
+    width:90px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.2s ease-in-out;
+    background-color: rgba(255, 0, 136, 0.746);
+}
+input[type="submit"]:hover
+{
+    background-color: green;
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.Span
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    font-size: 30px;
+}
+.Calculate
+{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    font-size: 20px;
+    column-gap: 10px;
+}
